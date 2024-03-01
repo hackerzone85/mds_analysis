@@ -1,6 +1,8 @@
 # **GROMACS Trajectory Analysis Tutorial**
 This repository contains a step-by-step tutorial for analyzing molecular dynamics (MD) simulations using GROMACS.
 
+*************************************************************************************************************************************************************************************
+
 ## **MD simulation analysis can be categorized into three main groups:**
 ### 1. Essential Structural Analysis: 
 These methods provide insights into the structural changes and stability of the system throughout the simulation. They help in understanding how the 
@@ -34,13 +36,14 @@ Calculate the Root Mean Square Deviation (RMSD), Root Mean Square Fluctuation (R
 
 ### 4. PCA
 1. Perform Principal Component Analysis (PCA) using the `pca.py` script from the MODE-TASK tool.
-2. Comparing PCA results from two different trajectories
+2. Comparing PCA results from two different trajectories (Will be updated soon).
 
 ### 5. Clustering
 Perform clustering to group similar structures from a trajectory using the `ttclust` tool.
 
 ### 6. MMPBSA
 Calculate the binding free energy of a system using the `gmx_MMPBSA` tool.
+
 *************************************************************************************************************************************************************************************
 
 # Detailed instructions and comments for each step are in the tutorial script file.
