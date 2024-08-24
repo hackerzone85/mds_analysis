@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define the systems to process
-systems=("6_MPro_Wild_PLZ" "7_MPro_Mute_PLZ" "8_MPro_Wild_BTZ" "9_MPro_Mute_BTZ" "10_MPro_Wild_OGT" "11_MPro_Mute_OGT") 
+systems=("system01" "system02" "system03" "system04" "system05" "system06") 
 
 # Load the gmx command
-source /home/ddalab/GMX2020.3/bin/GMXRC
+source /home/usr_name/GMX2020.3/bin/GMXRC
 
 # ANSI escape code for yellow
 YELLOW='\033[1;33m'
